@@ -1,0 +1,16 @@
+{
+  "name": "Paper Compliance Agent",
+  "goal": "检查论文格式、参考文献顺序、图表清晰度、投稿清单和审稿意见响应",
+  "agents": [
+    "FormatChecker",
+    "CitationVerifier",
+    "FigureAuditor",
+    "ResponseWriter",
+    "Reviewer"
+  ],
+  "metrics": [
+    "reference_order_accuracy",
+    "format_error_count",
+    "manual_review_time_saved"
+  ]
+}

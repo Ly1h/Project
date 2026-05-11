@@ -1,0 +1,21 @@
+{
+  "name": "Ocean YOLO Research Factory",
+  "goal": "自动构建海洋鱼类目标检测论文的实验计划、消融矩阵、评估清单和投稿材料",
+  "agents": [
+    "DataAuditor",
+    "ExperimentPlanner",
+    "TrainRunner",
+    "MetricAnalyst",
+    "PaperWriter"
+  ],
+  "metrics": [
+    "precision",
+    "recall",
+    "mAP50",
+    "F1",
+    "FLOPs",
+    "FPS",
+    "token_cost",
+    "human_hours_saved"
+  ]
+}

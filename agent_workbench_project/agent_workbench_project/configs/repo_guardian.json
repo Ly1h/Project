@@ -1,0 +1,16 @@
+{
+  "name": "Repo Guardian",
+  "goal": "自动扫描代码仓库、运行测试、发现TODO/FIXME、生成修复计划和审查报告",
+  "agents": [
+    "IntakeAgent",
+    "PlannerAgent",
+    "BuilderAgent",
+    "EvaluatorAgent",
+    "ReviewerAgent"
+  ],
+  "guardrails": [
+    "blocked_shell_commands",
+    "workspace_path_sandbox",
+    "human_review_before_patch"
+  ]
+}
